@@ -1,0 +1,130 @@
+/* Commentaire*/
+/* Normalize*/
+/* mettre photo pour fond */
+body {
+	background-image: url(/home/plnguyen/Code/assets/paper.png);
+}
+
+#first_text{
+	text-align: center;	
+	background-color: #33ff66;
+	padding: 20px 50px;
+	/* border-width: 2;	*/
+
+}
+nav{
+	/*text-align: center;*/
+	background-color: green;
+	overflow: hidden;
+	margin: 0px;
+	/* overflow : efface les déborbdement */
+}
+nav a{
+	color: blanchedalmond;
+	padding: 14px 20px;
+	/*text-align: center;*/
+	text-decoration: none;
+	/*display: block;*/
+}
+
+nav a.menu_left{
+	float:  left;
+}
+nav a.menu_right{
+	float:  right;
+}
+nav a:hover {
+	background-color: #EEE;
+	color: red;
+}
+
+ol{
+	padding: 5px 30px;
+}
+ul{
+	padding: 5px 30px;
+}
+table{
+	padding: 5px 5px;
+}
+a.link_social{
+	margin: 20px;
+	padding: 5px 15px;	
+}
+
+.flex-container{
+  display: flex;
+  /*flex-direction: column;*/
+  
+  /*background-color: DodgerBlue;*/
+}
+
+.left_side {
+  flex: 30%;
+  background-color: gray;
+}
+.right_side {
+  flex: 70%;
+  background-color: beige;
+}
+
+footer{
+	background-color: #33ff66;
+	padding: 3px;
+	text-align: center;
+}
+
+/*Styling table*/
+
+#table_scores {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table_scores td, #table_scores th {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+#table_scores tr:nth-child(even){background-color: #f2f2f2;}
+
+#table_scores tr:hover {background-color: #ddd;}
+
+#table_scores th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+@media(max-width:  800px){
+	.left_side {
+		flex: 100%;
+		background-color: red;
+	}
+	.course_side {
+		flex: 100%;
+		background-color: skyblue;
+	}
+	.flex-container {
+		flex-wrap: wrap;
+	}
+
+}
+@media(max-width:  400px){
+	.left_side {
+		flex: 100%;
+		background-color: skyblue;
+	}
+	.course_side {
+		flex: 100%;
+		background-color: red;
+	}
+	.flex-container {
+		flex-wrap: wrap;
+	}
+
+}

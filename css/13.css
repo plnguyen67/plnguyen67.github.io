@@ -1,0 +1,67 @@
+/* Commentaire*/
+
+
+/* Normalize*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* mettre photo pour fond */
+body {
+	background-image: url(/home/plnguyen/Code/assets/paper.png);
+}
+
+
+#first_text{
+	text-align: center;	
+	background-color: #33ff66;
+	padding: 20px 50px;
+	/* border-width: 2;	*/
+
+}
+nav{
+	/*text-align: center;*/
+	background-color: green;
+	padding: 20px 50px;
+	/*border-width: 2;*/
+	/*border-style: solid ;*/
+
+
+}
+nav a{
+	color: blanchedalmond;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;
+	/*display: block;*/
+}
+nav a:hover {
+	background-color: #EEE;
+	color: red;
+
+}
+
+
+
+
+/* #resume li{
+	text-align: center;
+
+}	
+
+#contact{
+	padding: 10px 10px;
+
+}
+#education{
+	padding: 10px 10px;
+
+}#score{
+	padding: 10px 10px;
+
+}
+#social{
+	padding: 10px 10px;
+
+} */

@@ -1,0 +1,17 @@
+
+.flex-container {
+  display: flex;
+  
+  background-color: DodgerBlue;
+}
+
+.left_side {
+  flex: 30%;
+  background-color: gray;
+}
+.right_side {
+  flex: 70%;
+  background-color: green;
+}
+
+
